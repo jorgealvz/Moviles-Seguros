@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="@string/config_categoria_web_service_key"
+        android:title="@string/config_categoria_web_service_title" >
+        <EditTextPreference
+            android:defaultValue="@string/config_url_web_service_default_value"
+            android:dialogTitle="@string/config_url_web_service_dialog_title"
+            android:key="@string/config_url_web_service_key"
+            android:summary="@string/config_url_web_service_summary"
+            android:title="@string/config_url_web_service_title" >
+        </EditTextPreference>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

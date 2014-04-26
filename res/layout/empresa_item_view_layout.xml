@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.movilesseguros.ui.widgets.itemview.EmpresaItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.movilesseguros"
+    style="?attr/gdThumbnailItemViewStyle"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/gdItemViewPreferredHeight"
+    android:paddingLeft="?attr/gdItemViewPreferredPaddingLeft" >
+
+    <greendroid.widget.AsyncImageView
+        android:id="@+id/gd_thumbnail"
+        style="?attr/gdThumbnailItemViewStyleThumbnail"
+        android:layout_height="?attr/gdItemViewPreferredHeight"
+        android:scaleType="centerInside"
+        app:defaultSrc="@drawable/ic_no_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/gd_thumbnail"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</com.movilesseguros.ui.widgets.itemview.EmpresaItemView>

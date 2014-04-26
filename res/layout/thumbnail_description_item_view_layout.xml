@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.movilesseguros.ui.widgets.itemview.ThumbnailDescriptionItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?attr/gdThumbnailItemViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/gdItemViewPreferredHeight"
+    android:paddingLeft="?attr/gdItemViewPreferredPaddingLeft" >
+
+    <greendroid.widget.AsyncImageView
+        android:id="@+id/gd_thumbnail"
+        style="?attr/gdThumbnailItemViewStyleThumbnail"
+        android:layout_height="?attr/gdItemViewPreferredHeight"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/gd_text"
+        style="?attr/gdLongTextItemViewStyle"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/gd_thumbnail"
+        android:gravity="center_vertical"
+        android:minHeight="?attr/gdItemViewPreferredHeight" />
+
+</com.movilesseguros.ui.widgets.itemview.ThumbnailDescriptionItemView>

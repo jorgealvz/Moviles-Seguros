@@ -1,0 +1,143 @@
+<resources>
+
+    <string name="app_name">Moviles Seguros</string>
+    <string name="app_error_conexion_message">Error de conexion con el servidor. Verifique su conexion a internet</string>
+    <string name="app_message_salir">Presione una vez mas para salir</string>
+    <string name="app_facebook_id">287500381406885</string>
+    <string name="app_cerrar_sesion_label">Cerrar Sesion</string>
+    <string name="app_cargando_label">Cargando&#8230;</string>
+    <string name="app_reportar_label">Reportar</string>
+    <string name="app_message_cliente_correo_no_instalado">No hay clientes de correo instalados</string>
+    <string name="app_correo_reporte">reclamoscliente@gmail.com</string>
+    <string name="app_enviar_correo_label">Enviar correo</string>
+    <string name="app_asunto_correo_reporte">Movil No Seguro: %1$s</string>
+
+    <!-- Login -->
+    <string name="login_activity_label">Login</string>
+    <string name="login_ic_logo_description">Logo</string>
+    <string name="login_correo_label">Correo electrónico</string>
+    <string name="login_password_label">Contraseña</string>
+    <string name="login_entrar_label">Entrar</string>
+    <string name="login_registrate_label">Registrate</string>
+    <string name="login_registrate_hint_label">O Registrate con tu correo electronico</string>
+    <string name="login_otras_cuentas_label">O inicia sesion con</string>
+    <string name="login_sin_cuenta_label">No tienes cuenta?</string>
+    <string name="login_facebook_label">Facebook</string>
+    <string name="login_google_label">Google</string>
+    <string name="login_message_warning_correo">Ingresar correo electronico</string>
+    <string name="login_message_warning_correo_incorrecto">Direccion de correo electronico incorrecta</string>
+    <string name="login_message_warning_password">Ingresar contraseña</string>
+    <string name="login_error_message_login_incorrecto">Usuario o Password Incorrectos</string>
+    <string name="login_error_message_login">Error al iniciar sesion</string>
+    <string name="login_error_message_registro">Error al registrar el usuario</string>
+    <string name="login_error_message_verificacion">Error al verificar el usuario</string>
+    <string name="login_message_usuario_registrado">Ya existe un usuario registrado con este correo</string>
+    <string name="login_message_iniciando_sesion">Iniciando Sesion&#8230;</string>
+    <string name="login_message_registrando">Registrando Usuario&#8230;</string>
+    <string name="login_message_verificando_usuario">Validando&#8230;</string>
+    <string name="login_message_conectando">Conectando&#8230;</string>
+    <string name="login_error_message_google">Error al conectar con google services</string>
+    <!-- Busqueda -->
+    <string name="busqueda_activity_label">Busqueda</string>
+    <string name="busqueda_message_buscando">Buscando&#8230;</string>
+    <string name="busqueda_ic_search_description">Buscar</string>
+    <string name="busqueda_buscar_label">Buscar</string>
+    <string name="busqueda_message_warning">Ingrese el numero de placa a buscar</string>
+    <string name="busqueda_message_sin_resultados">Lo sentimos este movil no esta registrado. No es seguro</string>
+    <string name="busqueda_no_disponible_label">No Disponible</string>
+    <string name="busqueda_ninguna_label">Ninguna</string>
+    <string name="busqueda_ic_divider_description">Buscar</string>
+    <string name="busqueda_search_hint_label">Numero de Placa</string>
+    <string name="busqueda_hint_label">Ingrese el numero de la Placa del radio movil que desea verificar si es seguro</string>
+    <string name="busqueda_error_message">Error al realizar la busqueda</string>
+    <string name="busqueda_error_imagen_message">Error al descargar la imagen</string>
+    <string name="busqueda_empresa_tag">Empresa</string>
+    <string name="busqueda_empresa_razon_social">Razon Social</string>
+    <string name="busqueda_empresa_direccion">Direccion</string>
+    <string name="busqueda_empresa_telefono">Telefono</string>
+    <string name="busqueda_empresa_fax">Fax</string>
+    <string name="busqueda_empresa_pagina_web">Pagina Web</string>
+    <string name="busqueda_empresa_email">Email</string>
+    <string name="busqueda_empresa_logo">Logo</string>
+    <string name="busqueda_empresa_error_message">Error al cargar los datos de la empresa</string>
+    <string name="busqueda_empresa_imagen_error_message">Error al cargar el logotipo de la empresa</string>
+    <string name="busqueda_conductor_tag">Conductor</string>
+    <string name="busqueda_conductor_nombre">Nombre</string>
+    <string name="busqueda_conductor_nacionalidad">Nacionalidad</string>
+    <string name="busqueda_conductor_observaciones">Observaciones</string>
+    <string name="busqueda_conductor_edad">Edad</string>
+    <string name="busqueda_conductor_foto">Foto</string>
+    <string name="busqueda_conductor_error_message">Error al cargar los datos del conductor</string>
+    <string name="busqueda_conductor_imagen_error_message">Error al cargar la imagen del conductor</string>
+    <string name="busqueda_vehiculo_tag">Vehiculo</string>
+    <string name="busqueda_vehiculo_modelo">Modelo</string>
+    <string name="busqueda_vehiculo_placa">Placa</string>
+    <string name="busqueda_vehiculo_observaciones">Observaciones</string>
+    <string name="busqueda_vehiculo_nro_movil">Nro Movil</string>
+    <string name="busqueda_vehiculo_clase">Clase</string>
+    <string name="busqueda_vehiculo_marca">Marca</string>
+    <string name="busqueda_vehiculo_tipo">Tipo</string>
+    <string name="busqueda_vehiculo_foto">Foto</string>
+    <string name="busqueda_vehiculo_error_message">Error al cargar los datos del vehiculo</string>
+    <string name="busqueda_vehiculo_imagen_error_message">Error al cargar la imagen del vehiculo</string>
+    <string name="busqueda_error_message_activity_no_found">No existe una aplicacion para procesar la accion</string>
+    <string name="busqueda_busqueda_recientes_label">Busquedas Recientes</string>
+    <string name="busqueda_message_help_informacion_item">Haz cliz sobre un item para mayor informacion (si esta disponible) o sobre una imagen para ampliarla</string>
+
+    <!-- Configuracion -->
+    <string name="configuracion_activity_label">Configuracion</string>
+    <string name="config_categoria_web_service_title">Web Service</string>
+    <string name="config_categoria_web_service_key">webService</string>
+    <string name="config_url_web_service_dialog_title">Web Service</string>
+    <string name="config_url_web_service_dialog_message">Ingrese la direccion URL del Web Service</string>
+    <string name="config_url_web_service_title">URL</string>
+    <string name="config_url_web_service_summary">Establece la direccion URL del web service</string>
+    <string name="config_url_web_service_default_value">http://190.186.93.90/ws_rmc/wsmovseg.asmx</string>
+    <string name="config_url_web_service_key">url</string>
+
+    <!-- Imagen -->
+    <string name="imagen_activity_label">Imagen</string>
+
+    <!-- Drawer -->
+    <string-array name="title_array">
+        <item>Busqueda</item>
+        <item>Moviles Seguros</item>
+        <item>Mapa</item>
+    </string-array>
+
+    <string name="drawer_open_label">Abrir Menu</string>
+    <string name="drawer_close_label">Cerrar Menu</string>
+
+    <!-- Empresas -->
+    <string name="empresas_error_message_cargar_empresas">Error al cargar las empresas</string>
+    <string name="empresas_ic_logo_description">Empresa</string>
+    <string name="empresas_dialog_telefonos_title_label">Telefonos</string>
+
+    <!-- Mapa -->
+    <string name="mapa_activity_label">Mapa</string>
+    <!-- MAC -->
+<!--     <string name="mapa_google_api_key">AIzaSyASlQdJ3oXs8BtjW2YjVW85-OwmADHAkCU</string> -->
+    <!-- Windows -->
+    <string name="mapa_google_api_key">AIzaSyCQQc1i8H6WUN1nkhmYl4G4-hgJcCGbmVo</string>
+    <string name="mapa_tarifa_label">Tarifa</string>
+    <string name="mapa_buscar_label">Buscar</string>
+    <string name="mapa_buscar_settings_description_label">Buscar Lugares</string>
+    <string name="mapa_message_ubicacion_no_disponible">No es posible determinar su ubicacion en este momento</string>
+    <string name="mapa_message_obteniendo_ubicacion">Obteniendo Ubicacion&#8230;</string>
+    <string name="mapa_error_message_ruta">Error al obtener la ruta</string>
+    <string name="mapa_message_obteniendo_ruta">Obteniendo Ruta&#8230;</string>
+    <string name="mapa_message_ruta_no_disponible">No es posible calcular la ruta</string>
+    <string name="mapa_tarifa_aproximada_label">Tarifa Aproximada: %1$s</string>
+    <string name="mapa_message_destino_no_especificado">Destino no especificado. Manten presionado sobre la pantalla para especificar el punto de destino</string>
+    <string name="mapa_google_api_browser_key">AIzaSyBRavGtloIAZu5WSCXOcEHaLW4Sm1mS06o</string>
+    <string name="mapa_message_help_punto_destino">Manten presionado sobre la pantalla para especificar el punto de destino</string>
+
+    <!-- Tarifa -->
+    <string name="tarifa_activity_label">Tarifa</string>
+    <string name="tarifa_costo_label">Costo Aproximado (1 Persona)</string>
+    <string name="tarifa_punto_inicial_label">Desde</string>
+    <string name="tarifa_punto_final_label">Hasta</string>
+    <string name="tarifa_distancia_label">Distancia</string>
+    <string name="tarifa_tiempo_label">Tiempo</string>
+
+</resources>
